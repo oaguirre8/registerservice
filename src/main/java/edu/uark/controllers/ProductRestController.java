@@ -45,6 +45,7 @@ public class ProductRestController {
 			execute();
 	}
 
+    //Change
 	@ResponseBody
 	@RequestMapping(value = "/test", method = RequestMethod.GET)
 	public String test() {
