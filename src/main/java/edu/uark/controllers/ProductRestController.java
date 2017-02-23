@@ -48,6 +48,6 @@ public class ProductRestController {
 	@ResponseBody
 	@RequestMapping(value = "/test", method = RequestMethod.GET)
 	public String test() {
-		return "Successful test. (ProductRestController)";
+		return "Successful test. (ProductRestController) -- Change made";
 	}
 }
