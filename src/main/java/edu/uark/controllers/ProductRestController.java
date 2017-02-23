@@ -44,10 +44,12 @@ public class ProductRestController {
 			setApiProduct(product).
 			execute();
 	}
-
+	//Change in Eclipse
 	@ResponseBody
 	@RequestMapping(value = "/test", method = RequestMethod.GET)
 	public String test() {
 		return "Successful test. (ProductRestController)";
 	}
 }
+
+
