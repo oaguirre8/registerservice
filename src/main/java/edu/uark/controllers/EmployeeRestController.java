@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value = "/employee")
 public class EmployeeRestController {
-	//Change
+	//Change in EmployeeRestController to push to local registerservice
 	@ResponseBody
 	@RequestMapping(value = "/test", method = RequestMethod.GET)
 	public String test() {
