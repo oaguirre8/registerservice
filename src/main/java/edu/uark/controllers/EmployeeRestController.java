@@ -17,6 +17,6 @@ public class EmployeeRestController {
 	@ResponseBody
 	@RequestMapping(value = "/test", method = RequestMethod.GET)
 	public String test() {
-		return "Successful test. (EmployeeRestController)";
+		return "Successful test. (EmployeeRestController) -- test push to heroku";
 	}
 }
